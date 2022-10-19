@@ -2,7 +2,7 @@ node{
    stage('SCM Checkout'){
      git 'https://github.com/selvajp7/my-app.git'
    }
-   stage('Maven Build 1'){
+   stage('Maven Build '){
 
       def mvnHome =  tool name: 'maven3', type: 'maven'   
       sh "${mvnHome}/bin/mvn clean package"
