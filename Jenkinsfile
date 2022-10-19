@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/selva7290/my-app.git'
+     git 'https://github.com/selvajp7/my-app.git'
    }
    stage('Maven Build'){
 
